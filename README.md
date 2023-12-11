@@ -4,7 +4,7 @@ Nowadays the application of AR is expanding from small or medium environments to
 
 # Our Dataset
 
-You can download our dataset from any of the following addresses:
+You can download our dataset from following addresses:
 
 - atrium  : https://pan.baidu.com/s/1mCGWbO-LXQvozcjTdKl4zg  password: v748      
 - exhibition-hall  : https://pan.baidu.com/s/1FXw5BqR4246g9CYGnK9Org  password: k4nb       
