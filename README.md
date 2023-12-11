@@ -23,7 +23,7 @@ You can download our dataset from following addresses:
 
 # Citation
 
-If you find this code useful for your research, please use the following BibTeX entry.
+If you find this dataset useful for your research, please use the following BibTeX entry.
 
 ```bibtex
 @ARTICLE{10223237,
