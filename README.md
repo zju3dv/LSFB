@@ -61,8 +61,8 @@ A0/glass
 Data description
 | 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          |
 | ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | 
-| cam0/data.csv  | t[s:double]   | filename[string]        |                  |      |            |            |            |        
-| imu/data.csv     | t[s:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |    
+| cam0/data.csv  | t[ns:double]   | filename[string]        |                  |      |            |            |            |        
+| imu/data.csv     | t[ns:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |    
 
 ```shell
 groundturth
