@@ -29,20 +29,12 @@ A0/android
 |   |--...
 
 ```
-| 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          | 8        | 9    | 10         |
-| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | ---- | ---------- |
-| camera/data.csv  | t[s:double]   | filename[string]        |                  |      |            |            |            |          |      |            |
-| imu/data.csv     | t[s:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |      |            |
-| attitude/data.csv  | t[s:double]  | g.x[m/s^2:double]   |  g.y[m/s^2:double] | g.z[m/s^2:double]     |    rv.x[double]        |   rv.y[double]         |     rv.z[double]       |  rv.w[double]        |      |            |
-| gravity.csv      | 系统时间戳（纳秒） | x                  | y                | z    |            |            |            |          |      |            |
-| rv.csv           | 系统时间戳（纳秒） | x                  | y                | z    | w          | 精确度     |            |          |      |            |
-| exposureTime.csv | 系统时间戳（纳秒） | 曝光时间（纳秒）   |                  |      |            |            |            |          |      |            |
-| gyr.csv          | 系统时间戳（纳秒） | x                  | y                | z    |            |            |            |          |      |            |
-| acc.csv          | 系统时间戳（纳秒） | x                  | y                | z    |            |            |            |          |      |            |
-| bluetooth.csv    | 时刻               | 系统时间戳（纳秒） | 设备名称（null） | uuid | major      | minor      | （null）   | （null） | rssi | 1970时间戳 |
-| mf.csv           | 系统时间戳（纳秒） | x                  | y                | z    | 精确度     |            |            |          |      |            |
-| gps.csv          | 系统时间戳（纳秒） | 经度               | 纬度             | 高度 | 水平精确度 | 竖直精确度 | 1970时间戳 |          |      |            |
-| rtk.csv          | 详见文件首行       |                    |                  |      |            |            |            |          |      |            |
+Data description
+| 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          | 8        | 
+| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | 
+| camera/data.csv  | t[s:double]   | filename[string]        |                  |      |            |            |            |          |     
+| imu/data.csv     | t[s:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |     
+| attitude/data.csv  | t[s:double]  | g.x[m/s^2:double]   |  g.y[m/s^2:double] | g.z[m/s^2:double]     |    rv.x[double]        |   rv.y[double]         |     rv.z[double]       |  rv.w[double]        |    
 
 AR glasses
 ```shell
@@ -66,6 +58,7 @@ A0/glass
 |   |--sensor.yaml
 
 ```
+Data description
 | 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          |
 | ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | 
 | cam0/data.csv  | t[s:double]   | filename[string]        |                  |      |            |            |            |        
@@ -77,8 +70,8 @@ groundturth
 |   |--data.csv
 ```
 
-| 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          | 8        | 9    | 10         |
-| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | ---- | ---------- |
+| 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          | 8        | 9    | 10         | 11|12|13|14|15|15|17|
+| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | ---- | ----------- |-|-|-|-|-|-|-|
 |data.csv|timestamp[ns]| p_RS_R_x [m]| p_RS_R_y [m]| p_RS_R_z [m]|q_RS_w []| q_RS_x []| q_RS_y []| q_RS_z []| v_RS_R_x [m s^-1]| v_RS_R_y [m s^-1]| v_RS_R_z [m s^-1]| b_w_RS_S_x [rad s^-1]| b_w_RS_S_y [rad s^-1]| b_w_RS_S_z [rad s^-1]| b_a_RS_S_x [m s^-2]| b_a_RS_S_y [m s^-2]| b_a_RS_S_z [m s^-2]|
 
 
