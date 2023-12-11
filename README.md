@@ -5,6 +5,34 @@ Nowadays the application of AR is expanding from small or medium environments to
 https://github.com/zju3dv/LSFB/assets/16128141/d5848f5c-5d9a-4d8b-8f90-3a4a71c9bd58
 
 # Our Dataset
+The format of files are as follow:
+Android phone /iPhone
+```shell
+A0/android
+|--camera
+|   |--images
+|     |--17896609415000.jpg
+|     |--17896643028000.jpg
+|     |--...
+|   |--data.csv
+|   |--sensor.yaml
+|--imu
+|   |--data.csv
+|   |--sensor.yaml
+|--attitude
+|   |--data.csv
+|   |--sensor.yaml
+|--sensor
+|   |--bluetooth.csv
+|   |--mf.csv
+|   |--gps.csv
+|   |--...
+
+```
+
+
+
+
 
 You can download our dataset from following addresses:
 
