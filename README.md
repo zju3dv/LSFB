@@ -6,7 +6,8 @@ https://github.com/zju3dv/LSFB/assets/16128141/d5848f5c-5d9a-4d8b-8f90-3a4a71c9b
 
 # Our Dataset
 The format of files are as follow:
-Android phone /iPhone
+
+## Android phone / iPhone
 ```shell
 A0/android
 |--camera
@@ -36,7 +37,7 @@ Data description
 | imu/data.csv     | t[s:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |     
 | attitude/data.csv  | t[s:double]  | g.x[m/s^2:double]   |  g.y[m/s^2:double] | g.z[m/s^2:double]     |    rv.x[double]        |   rv.y[double]         |     rv.z[double]       |  rv.w[double]        |    
 
-AR glasses
+## AR glasses
 ```shell
 A0/glass
 |--cam0
@@ -65,7 +66,7 @@ Data description
 | imu/data.csv     | t[ns:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |    
 
 ```shell
-groundturth
+A0
 |--groundturth
 |   |--data.csv
 ```
