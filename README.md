@@ -81,18 +81,7 @@ A0
 
 
 You can download our dataset from following addresses:
-
-- atrium  : https://pan.baidu.com/s/1mCGWbO-LXQvozcjTdKl4zg  password: v748      
-- exhibition-hall  : https://pan.baidu.com/s/1FXw5BqR4246g9CYGnK9Org  password: k4nb       
-- office-park-indoor-outdoor  : https://pan.baidu.com/s/1hS4Ta5YuNepJ8DnBrQ3_Tg  password: 78ap
-- corridor-narrow  : https://pan.baidu.com/s/1HsvfVNdGINg9rhheys4Z6g  password: ummv
-- corridor-wide   : https://pan.baidu.com/s/1huWTLukIlrQeObgmxxzFYw  password: qq2p
-- large-indoor-office : https://pan.baidu.com/s/1rC_aKvDF3K7Y1BmbFWx8WQ  password: 44ff     
-- office-park-outdoor  : https://pan.baidu.com/s/1sjDc081bZBeDqD1wWQBwXA  password: nlbg
-- medium-indoor-office   : https://pan.baidu.com/s/1RRFVZq-NaiTG-xWHewqgYg  password: w266 
-- stairs  : https://pan.baidu.com/s/1S-_3m2GadHXreL7BwbUXIQ  password: ib9e
-
-- Ground Truth: https://pan.baidu.com/s/1tXbO1_trKOlVLHGiCCabwA  password: l36c
+https://pan.baidu.com/s/1W1KluP2V77j5HAQwblh0vQ?pwd=n985
 
 
 # Citation
