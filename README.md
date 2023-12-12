@@ -65,6 +65,7 @@ Data description
 | cam0/data.csv  | t[ns:double]   | filename[string]        |                  |      |            |            |            |        
 | imu/data.csv     | t[ns:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |    
 
+## groundturth
 ```shell
 A0
 |--groundturth
@@ -73,7 +74,7 @@ A0
 
 | 文件名\列号      | 1                  | 2                  | 3                | 4    | 5          | 6          | 7          | 8        | 9    | 10         | 11|12|13|14|15|15|17|
 | ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | ---- | ----------- |-|-|-|-|-|-|-|
-|data.csv|timestamp[ns]| p_RS_R_x [m]| p_RS_R_y [m]| p_RS_R_z [m]|q_RS_w []| q_RS_x []| q_RS_y []| q_RS_z []| v_RS_R_x [m s^-1]| v_RS_R_y [m s^-1]| v_RS_R_z [m s^-1]| b_w_RS_S_x [rad s^-1]| b_w_RS_S_y [rad s^-1]| b_w_RS_S_z [rad s^-1]| b_a_RS_S_x [m s^-2]| b_a_RS_S_y [m s^-2]| b_a_RS_S_z [m s^-2]|
+|data.csv|timestamp[ns]| p_RB_R_x [m]| p_RB_R_y [m]| p_RB_R_z [m]|q_RB_w []| q_RB_x []| q_RB_y []| q_RB_z []| v_RB_R_x [m s^-1]| v_RB_R_y [m s^-1]| v_RB_R_z [m s^-1]| b_w_RB_S_x [rad s^-1]| b_w_RB_S_y [rad s^-1]| b_w_RB_S_z [rad s^-1]| b_a_RB_S_x [m s^-2]| b_a_RB_S_y [m s^-2]| b_a_RB_S_z [m s^-2]|
 
 
 
