@@ -12,7 +12,7 @@ https://github.com/zju3dv/LSFB/assets/16128141/d5848f5c-5d9a-4d8b-8f90-3a4a71c9b
 |Res.|640x480|640x480|640x400|
 |Fov|67x53|68x53|126x80|
 |Freq.|30Hz|30Hz|30Hz|
-|GS/RS*|rolling shutter|rolling shuttet|global shutter|
+|GS/RS*|rolling shutter|rolling shutter|global shutter|
 
 ## Dataset Format
 The format of files are as follow:
