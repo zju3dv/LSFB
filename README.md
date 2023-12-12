@@ -9,7 +9,7 @@ The format of files are as follow:
 
 ## Android phone / iPhone
 ```shell
-A0/android
+eg: data/Android phone/A0/android.tar.gz
 |--camera
 |   |--images
 |     |--17896609415000.jpg
@@ -39,7 +39,7 @@ Data description
 
 ## AR glasses
 ```shell
-A0/glass
+eg: data/AR glasses/A0/glass.tar.gz
 |--cam0
 |   |--data
 |     |--00000001709367764079.png
@@ -67,7 +67,7 @@ Data description
 
 ## groundturth
 ```shell
-A0
+eg: groundturth/Android phone/A0/
 |--groundturth
 |   |--data.csv
 ```
@@ -81,6 +81,7 @@ A0
 
 
 You can download our dataset from following addresses:
+
 https://pan.baidu.com/s/1W1KluP2V77j5HAQwblh0vQ?pwd=n985
 
 
