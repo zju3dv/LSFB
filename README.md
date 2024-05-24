@@ -13,7 +13,7 @@ https://github.com/zju3dv/LSFB/assets/16128141/d5848f5c-5d9a-4d8b-8f90-3a4a71c9b
 |Fov|67x53|68x53|126x80|
 |Freq.|30Hz|30Hz|30Hz|
 |GS/RS*|RS|RS|GS|
-| ---------------- | ------------------ | ------------------ | ---------------- | 
+
 \* Global shutter / rolling shutter
 
 ## Dataset Format
@@ -43,6 +43,7 @@ eg: data/Android phone/A0/android.tar.gz
 
 ```
 Data description
+
 | ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | 
 | camera/data.csv  | t[s:double]   | filename[string]        |                  |      |            |            |            |          |     
 | imu/data.csv     | t[s:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |     
@@ -71,6 +72,7 @@ eg: data/AR glasses/A0/glass.tar.gz
 
 ```
 Data description
+
 | ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | 
 | cam0/data.csv  | t[ns:double]   | filename[string]        |                  |      |            |            |            |        
 | imu/data.csv     | t[ns:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |    
