@@ -44,7 +44,6 @@ eg: data/Android phone/A0/android.tar.gz
 ```
 Data description
 
-| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | 
 | camera/data.csv  | t[s:double]   | filename[string]        |                  |      |            |            |            |          |     
 | imu/data.csv     | t[s:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |     
 | attitude/data.csv  | t[s:double]  | g.x[m/s^2:double]   |  g.y[m/s^2:double] | g.z[m/s^2:double]     |    rv.x[double]        |   rv.y[double]         |     rv.z[double]       |  rv.w[double]        |    
@@ -73,7 +72,6 @@ eg: data/AR glasses/A0/glass.tar.gz
 ```
 Data description
 
-| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | 
 | cam0/data.csv  | t[ns:double]   | filename[string]        |                  |      |            |            |            |        
 | imu/data.csv     | t[ns:double]  | w.x[rad/s:double]   |  w.y[rad/s:double]  |   w.z[rad/s:double]     | a.x[m/s^2:double]   |   a.y[m/s^2:double]   |   a.z[m/s^2:double]   |    
 
@@ -84,7 +82,6 @@ eg: groundturth/Android phone/A0/
 |   |--data.csv
 ```
 
-| ---------------- | ------------------ | ------------------ | ---------------- | ---- | ---------- | ---------- | ---------- | -------- | ---- | ----------- |-|-|-|-|-|-|-|
 |data.csv|timestamp[ns]| p_RB_R_x [m]| p_RB_R_y [m]| p_RB_R_z [m]|q_RB_w []| q_RB_x []| q_RB_y []| q_RB_z []| v_RB_R_x [m s^-1]| v_RB_R_y [m s^-1]| v_RB_R_z [m s^-1]| b_w_RB_S_x [rad s^-1]| b_w_RB_S_y [rad s^-1]| b_w_RB_S_z [rad s^-1]| b_a_RB_S_x [m s^-2]| b_a_RB_S_y [m s^-2]| b_a_RB_S_z [m s^-2]|
 
 ### Motion and ScenrType of Sequences
